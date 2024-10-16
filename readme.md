@@ -22,6 +22,14 @@ Bastyon aims to create a resilient, decentralized ecosystem that empowers indivi
 
 This repo is meant to be an entry point into the project. It has descriptions and overview of other repos and how they are all connected.
 
+If you know what you want to help with, you could jump straight to the [How Do I...?]() section.
+
+> **Note:** But before you jump in, please make sure you check out [Contribution Guide](contribution.md). 
+
+## 📝 Bastyon Architectural Overview 📝
+
+[Coming Soon - Detailed architectural documentation and diagrams will be added here]
+
 ## 🏗️ Bastyon Platform Structure 🏗️
 
 The Bastyon Platform consists of these main blocks:
@@ -105,6 +113,15 @@ It contains the integration code with Bastyon and the PeerTube code itself.
 
 [https://github.com/pocketnetteam/bastyon-video](https://github.com/pocketnetteam/bastyon-video)
 
-## 📝 Bastyon Architectural Overview 📝
 
-[Coming Soon - Detailed architectural documentation and diagrams will be added here]
+## How To
+
+[Coming Soon - ]...
+
+### How Do I contribute to the Bastyon Application Development?
+### How Do I contribute to the Bastyon Node Development?
+### How Do I contribute to the Bastyon Node Development?
+### How Do I contribute to the Bastyon Documentation?
+### How Do I contribute to the Bastyon Documentation Translation?
+### How Do I contribute to the Bastyon Chat Messenger?
+
