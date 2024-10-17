@@ -99,7 +99,7 @@ Blockchain Explorer Interface:
 [https://github.com/pocketnetteam/pocketnet.explorer](https://github.com/pocketnetteam/pocketnet.explorer)
 
 Platform API Services:
-[https://github.com/pocketnetteam/pocketnet.api](https://github.com/pocketnetteam/pocketnet.api)
+[https://github.com/pocketnetteam/pocketnet-proxy-api](https://github.com/pocketnetteam/pocketnet-proxy-api)
 
 Network Control and Management:
 [https://github.com/pocketnetteam/pocketnet.control](https://github.com/pocketnetteam/pocketnet.control)
