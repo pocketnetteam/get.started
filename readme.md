@@ -22,13 +22,16 @@ Bastyon aims to create a resilient, decentralized ecosystem that empowers indivi
 
 This repo is meant to be an entry point into the project. It has descriptions and overview of other repos and how they are all connected.
 
-If you know what you want to help with, you could jump straight to the [How Do I...?]() section.
+If you know what you want to help with, you could jump straight to the [How To...?](#how-to) section.
 
 > **Note:** But before you jump in, please make sure you check out [Contribution Guide](contribution.md). 
 
 ## 📝 Bastyon Architectural Overview 📝
 
 [Coming Soon - Detailed architectural documentation and diagrams will be added here]
+
+graph TD;
+    A-->B;
 
 ## 🏗️ Bastyon Platform Structure 🏗️
 
