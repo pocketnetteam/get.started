@@ -35,43 +35,53 @@ The application flow architecture largerly depends on the content, users are int
 ### Text Content
 
 ```mermaid
-sequenceDiagram
-    participant U as User
-    participant B as Browser-based Bastyon App
-    participant P as Proxy Server (SSL)
-    participant N1 as Initial Blockchain Node
-    participant NN as Other Blockchain Nodes
-    
-    rect rgb(245, 245, 245)
-        note right of U: End User
-    end
-    rect rgb(230, 240, 250)
-        note right of B: Client Layer
-    end
-    rect rgb(255, 245, 230)
-        note right of N1: Blockchain Layer
-    end
-    rect rgb(255, 245, 230)
-        note right of NN: Blockchain Layer
+    graph TB
+    subgraph Clients
+        BA["Browser Applications & Mobiles"]
     end
 
-    U->>+B: Creates text content
-    B->>+P: Sends data over HTTPS
-    Note over P: Process request
-    P->>+N1: Forward processed request
-    
-    rect rgb(240, 248, 255)
-        Note right of N1: Consensus Process
-        N1->>NN: Broadcast content for validation
-        activate NN
-        NN->>N1: Return validation results
-        deactivate NN
-        Note over N1,NN: Content validated across network
+    subgraph Proxy["Proxy Layer"]
+        TLS["TLS"]
+        Cache["Cache"]
+        Balance["Load Balancer"]
     end
 
-    N1->>-P: Confirm validation & receipt
-    P->>-B: Return confirmation
-    B->>-U: Display confirmation
+    subgraph NodeCluster["Blockchain Nodes"]
+        N1["Node 1"]
+        N2["Node 2"]
+        N3["Node 3"]
+    end
+
+    subgraph PeerTube["PeerTube Federation"]
+        direction LR
+        PT1["PeerTube Instance 1"]
+        PT2["PeerTube Instance 2"]
+        PT3["PeerTube Instance 3"]
+    end
+
+    subgraph Chat["Chat Servers"]
+        M["Matrix Server"]
+    end
+
+    %% Core infrastructure connections
+    BA --- Proxy
+    
+    %% Single connection between Proxy and Nodes
+    Proxy --- NodeCluster
+    
+    %% Blockchain node connections
+    N1 --- N2
+    N2 --- N3
+    N3 --- N1
+    
+    %% PeerTube federation connections
+    PT1 --- PT2
+    PT2 --- PT3
+    PT3 --- PT1
+    
+    %% Client connections to services
+    BA --- PT1
+    BA --- M
 ```
 
 ### Images and Videos
