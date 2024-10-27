@@ -32,8 +32,6 @@ If you know what you want to help with, you could jump straight to the [How To..
 
 The application flow architecture largerly depends on the content, users are interacting with.
 
-### Text Content
-
 ```mermaid
     graph TB
     subgraph Clients
@@ -83,12 +81,6 @@ The application flow architecture largerly depends on the content, users are int
     BA --- PT1
     BA --- M
 ```
-
-### Images and Videos
-
-
-### Bastyon Chat
-
 
 ## 🏗️ Bastyon Platform Structure
 
