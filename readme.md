@@ -3,8 +3,12 @@
 -  [ ] Share this information with stakeholders
 -->
 
+<div align="right">
+  <b>en</b> | <a href="readme_ru.md">ru</a>
+</div>
+
 <div align="center">
-  <img src="bastyon-logo-256x256.png" alt="bastyon logo">
+  <img src="bastyon-logo-256x256.png" width="196" alt="bastyon logo">
 </div>
 
 <div align="center">
@@ -82,6 +86,7 @@ The application flow architecture largerly depends on the content, users are int
     BA --- M
 ```
 
+
 ## 🏗️ Bastyon Platform Structure
 
 The Bastyon Platform consists of these main blocks:
@@ -94,76 +99,68 @@ The Bastyon Platform consists of these main blocks:
 
 Below are the repositories for each respective platform component:
 
+
 ### 🗂️ Bastyon Project Overview
 
 `This.repo`
 
 An entry point that helps newcomers navigate the Bastyon project.
 
-### 🛣️ Roadmap
+
+### 🛣️ Roadmap [🔗](https://github.com/pocketnetteam/roadmap)
 
 This repo is used for submission, tracking, and discussion of new proposals. The conversations in this repo remain active until proposals either get approved (with a willing contributor) or rejected. In both cases, the natural end state for a proposal is to be archived with a decision note.
 
-[https://github.com/pocketnetteam/roadmap](https://github.com/pocketnetteam/roadmap)
 
-### ✍️ Documentation
+### ✍️ Documentation [🔗](https://github.com/pocketnetteam/documentation)
 
 This repo contains documentation files that power the Bastyon documentation site. They are expected to be evergreen and maintained by everyone, including developers who make observable changes that require documentation updates.
 
-[https://github.com/pocketnetteam/documentation](https://github.com/pocketnetteam/documentation)
 
 ### 🎨 Bastyon User Interfaces
 
 Bastyon Graphical User Interfaces include Mobile Apps, Desktop and Web Browser Apps across several repositories.
 
-#### 🛠️ Bastyon Application UI
+
+#### 🛠️ Bastyon Application UI [🔗](https://github.com/pocketnetteam/pocketnet.gui)
 
 The `pocketnet.gui` repo holds the codebase for end-user applications. You can make changes and build and run locally for Desktop, Browser app, and Mobile Apps.
 
-[https://github.com/pocketnetteam/pocketnet.gui](https://github.com/pocketnetteam/pocketnet.gui)
 
-#### 🗨️ Bastyon Messenger UI
+#### 🗨️ Bastyon Messenger UI [🔗](https://github.com/pocketnetteam/bastyon-chat)
 
 The messenger component of Bastyon, enabling secure, decentralized communication between users.
 
-[https://github.com/pocketnetteam/bastyon-chat](https://github.com/pocketnetteam/bastyon-chat)
 
-#### 📞💻 Bastyon Calls UI
+#### 📞💻 Bastyon Calls UI [🔗](https://github.com/pocketnetteam/bastyon-video)
 
 The video calling and conferencing interface, providing peer-to-peer communication capabilities.
 
-[https://github.com/pocketnetteam/bastyon-calls](https://github.com/pocketnetteam/bastyon-video)
 
-#### 🔄 Barteron GUI
+#### 🔄 Barteron GUI [🔗](https://github.com/pocketnetteam/barteron.gui)
 
 This repo contains the User Interface for Barteron - a decentralized marketplace.
 
-https://github.com/pocketnetteam/barteron.gui
+
 
 ### 🖧🔒 Bastyon Protocols, Network, and Node Software
 
 Back-End block (Node Software, Blockchain Explorer, Bastyon Platform API)
 
-Core Protocol and Network Implementation:
-[https://github.com/pocketnetteam/pocketnet.core](https://github.com/pocketnetteam/pocketnet.core)
+[Core Protocol and Network Implementation](https://github.com/pocketnetteam/pocketnet.core)
 
-Blockchain Explorer Interface:
-[https://github.com/pocketnetteam/pocketnet.explorer](https://github.com/pocketnetteam/pocketnet.explorer)
+[Blockchain Explorer Interface](https://github.com/pocketnetteam/pocketnet.explorer)
 
-Platform API Services:
-[https://github.com/pocketnetteam/pocketnet-proxy-api](https://github.com/pocketnetteam/pocketnet-proxy-api)
+[Platform API Services](https://github.com/pocketnetteam/pocketnet-proxy-api)
 
-Network Control and Management:
-[https://github.com/pocketnetteam/pocketnet.control](https://github.com/pocketnetteam/pocketnet.control)
 
 ### 🧩 Bastyon Integrations
 
-#### 🎬 Bastyon Video Implementation
+#### 🎬 Bastyon Video Implementation [🔗](https://github.com/pocketnetteam/bastyon-video)
+
 This repo is a fork of PeerTube, a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. 🎬
 
 It contains the integration code with Bastyon and the PeerTube code itself.
-
-[https://github.com/pocketnetteam/bastyon-video](https://github.com/pocketnetteam/bastyon-video)
 
 
 ## How To
