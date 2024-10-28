@@ -38,7 +38,7 @@ Bastyon стремится создать устойчивую, децентра
 
 ```mermaid
     graph TB
-    subgraph Clients
+    subgraph Клиенты
         BA["Браузер и мобильные приложения"]
     end
 
