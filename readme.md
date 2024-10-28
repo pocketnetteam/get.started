@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <img src="bastyon-logo-256x256.png" width="196" alt="bastyon logo">
+  <img src="assets/img/bastyon-logo-256x256.png" width="196" alt="bastyon logo">
 </div>
 
 <div align="center">

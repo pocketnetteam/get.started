@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <img src="bastyon-logo-256x256.png" width="196" alt="логотип bastyon">
+  <img src="assets/img/bastyon-logo-256x256.png" width="196" alt="логотип bastyon">
 </div>
 
 <div align="center">
