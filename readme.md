@@ -166,6 +166,10 @@ It contains the integration code with Bastyon and the PeerTube code itself.
 [https://github.com/pocketnetteam/bastyon-video](https://github.com/pocketnetteam/bastyon-video)
 
 
+## Looking to Contribute?
+
+If you'd like to contribute, please read our [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## How To
 
 [Coming Soon - ]...
