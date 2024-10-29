@@ -35,7 +35,7 @@ The application flow architecture largerly depends on the content, users are int
 ```mermaid
     graph TB
     subgraph Clients
-        BA["Browser Applications & Mobiles"]
+        BA["Browser Applications & Mobile"]
     end
 
     subgraph Proxy["Proxy Layer"]
@@ -50,14 +50,14 @@ The application flow architecture largerly depends on the content, users are int
         N3["Node 3"]
     end
 
-    subgraph PeerTube["PeerTube Federation"]
+    subgraph PeerTube["Video Hosting via PeerTube"]
         direction LR
         PT1["PeerTube Instance 1"]
         PT2["PeerTube Instance 2"]
         PT3["PeerTube Instance 3"]
     end
 
-    subgraph Chat["Chat Servers"]
+    subgraph Chat["Bastyon Messenger"]
         M["Matrix Server"]
     end
 
