@@ -59,13 +59,17 @@ in the blockchain nodes. The changes include:
 The title of the pull request should be prefixed by the component or area that the pull request affects. Valid areas are:
 
 - `consensus` for changes to consensus critical code
-- `proxy` for changes to the SSL proxy
 - `frontend` for changes to the browser app
+- `desktop` for changes to the desktop app
+- `ios` for changes to the iOS app
+- `andrid` for changes to the android app
+- `messenger` for changes to messenger
 - `node` for changes to blockchain nodes
 - `protocol` for changes to the network protocol
 - `doc` for changes to documentation
 - `test` for changes to test suite
 - `build` for build system changes
+- `sraking` for changes to staking protocol
 
 ### Content Flow Considerations
 
